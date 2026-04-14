@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block internal/build paths if ever exposed
+Disallow: /node_modules/
+Disallow: /src/
+
+Sitemap: http://kingsoftatlanticbdc.com/sitemap.xml
